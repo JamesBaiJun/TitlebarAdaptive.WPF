@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TitlebarAdaptive.Demo/TitlebarAdaptive.Demo.csproj" />
+  <Project Path="TitlebarAdaptive.WPF/TitlebarAdaptive.WPF.csproj" />
+</Solution>
