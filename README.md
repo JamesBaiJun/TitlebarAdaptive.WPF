@@ -8,6 +8,7 @@
 
 `TitlebarAdaptive.WPF` 是一个用于 WPF 的标题栏主题适配辅助库，可以让窗口标题栏跟随 Windows 系统的浅色/深色模式自动切换，也支持手动指定标题栏颜色。
 
+![gif.gif](gif.gif)
 ### 特性
 
 - 自动跟随系统主题变化
@@ -19,6 +20,26 @@
   - .NET 8
   - .NET 10
 - 可打包为 NuGet 库发布
+
+### 安装方式
+
+#### 方法 1：通过 NuGet 包管理器安装
+
+在 Visual Studio 中打开 `NuGet 包管理器`，搜索并安装：
+
+`TitlebarAdaptive.WPF`
+
+#### 方法 2：通过包管理器控制台安装
+
+```powershell
+Install-Package TitlebarAdaptive.WPF
+```
+
+#### 方法 3：通过 .NET CLI 安装
+
+```powershell
+dotnet add package TitlebarAdaptive.WPF
+```
 
 ### 使用方式
 
@@ -49,13 +70,6 @@
 - `TitleBarIsLight="False"`：深色标题栏
 - `TitleBarIsLight="null"`：不指定标题栏颜色
 
-### 打包
-
-```powershell
-dotnet pack -c Release
-```
-
-生成的 `nupkg` 文件通常位于 `bin\Release\` 目录下。
 
 ### 项目结构
 
@@ -79,6 +93,26 @@ dotnet pack -c Release
   - .NET 8
   - .NET 10
 - Can be packed and published as a NuGet package
+
+### Installation
+
+#### Method 1: Install via NuGet Package Manager
+
+In Visual Studio, open `NuGet Package Manager` and install:
+
+`TitlebarAdaptive.WPF`
+
+#### Method 2: Install via Package Manager Console
+
+```powershell
+Install-Package TitlebarAdaptive.WPF
+```
+
+#### Method 3: Install via .NET CLI
+
+```powershell
+dotnet add package TitlebarAdaptive.WPF
+```
 
 ### Usage
 
@@ -108,14 +142,6 @@ Set the title bar color manually:
 - `TitleBarIsLight="True"`: light title bar
 - `TitleBarIsLight="False"`: dark title bar
 - `TitleBarIsLight="null"`: do not specify a title bar color
-
-### Packaging
-
-```powershell
-dotnet pack -c Release
-```
-
-The generated `nupkg` file is usually located under `bin\Release\`.
 
 ### Project layout
 
